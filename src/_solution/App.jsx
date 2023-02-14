@@ -11,11 +11,17 @@ function LogIn({ loggedIn, handleLogin }) {
 
   useEffect(() => {
     console.log("2 useEffect start");
+    let isMounted = true;
 
     // timeout simulates async api call
     setTimeout(() => {
-      subscribe();
+      isMounted && subscribe();
     }, 3000);
+
+    return () => {
+      console.log("3 useEffect clean-up");
+      isMounted = false;
+    };
   });
 
   return (

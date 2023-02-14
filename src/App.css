@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.log-in {
+  background-color: red;
+  padding: 10px 0;
+}
+
+button {
+  margin: 10px 0;
+}
