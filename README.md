@@ -6,7 +6,7 @@
 2. What's going on in the application?
 3. Run the application and click on Log-in. Play around with it, can you spot the problem? Hint: Click the button and directly click it again. Watch the log-in state below the button.
 4. How to solve this problem? Hint: Learn about cleaning up useEffect.
-5. Look at the console logs in the code (don't use the inspector yet!). In which order will they be printed out? Look at the Hook Flow link, if you need help.
+5. Look at the console logs in the code (don't use the inspector yet!). In which order will they be printed out? Look at the Hook Flow link, if you need help. If you added a clean-up to useEffect please also add a console log inside of it: console.log("3 useEffect clean-up");
 6. Would using useLayoutEffect change the order? In which cases it would? Read the blog article below to learn about the differences.
 
 
