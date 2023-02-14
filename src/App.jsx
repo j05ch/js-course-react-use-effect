@@ -49,7 +49,7 @@ function App() {
           </div>
         )}
         <button onClick={() => setShowLogIn(!showLogIn)}>
-          {showLogIn ? "Close" : "Open"} log-in
+          {showLogIn ? "Abort log-in" : "Log-In"}
         </button>
         <div>User is {loggedIn ? "logged in" : "logged out"}</div>
       </section>
